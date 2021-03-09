@@ -8,6 +8,7 @@ var mysqlConnection = mysql.createConnection({
     multipleStatements:true
 });
 
+/*-- test connection
 mysqlConnection.connect((err)=>{
     if(!err){
         console.log("Connected to express db");
@@ -16,5 +17,7 @@ mysqlConnection.connect((err)=>{
 
     }
 });
+
+--*/
 
 module.exports = mysqlConnection;
